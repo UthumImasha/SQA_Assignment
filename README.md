@@ -1,4 +1,4 @@
-# AutomationExercise — Selenium Test Automation Framework
+# AutomationExercise - Selenium Test Automation Framework
 
 Automated UI testing project for [automationexercise.com](https://automationexercise.com), built for the UCSC QA Automation practical assignment.
 
@@ -13,7 +13,7 @@ Automated UI testing project for [automationexercise.com](https://automationexer
 ## Progress
 
 - [x] Project setup
-- [ ] Requirement analysis
+- [x] Requirement analysis
 - [ ] Manual test scenario design
 - [ ] Automation candidate selection
 - [ ] Framework design
