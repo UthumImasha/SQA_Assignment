@@ -14,6 +14,7 @@ public class CartPage {
     private final WaitUtils wait;
 
     private final By cartRows = By.cssSelector("#cart_info_table tbody tr");
+    private final By checkoutButton = By.cssSelector("a.check_out");
 
     public CartPage(WebDriver driver) {
         this.driver = driver;
@@ -43,5 +44,9 @@ public class CartPage {
 
     public String totalOfItem(int index) {
         return rows().get(index).findElement(By.cssSelector(".cart_total p")).getText();
+    }
+
+    public void proceedToCheckout() {
+        wait.scrollAndClick(checkoutButton);
     }
 }

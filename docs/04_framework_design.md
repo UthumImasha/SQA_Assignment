@@ -41,7 +41,8 @@ SQA_Assignment/
 │   │   ├── AccountPage.java
 │   │   ├── ProductsPage.java
 │   │   ├── CartPage.java
-│   │   └── CheckoutPage.java
+│   │   ├── CheckoutPage.java
+│   │   └── PaymentPage.java
 │   ├── tests/
 │   │   ├── TC01_RegistrationTest.java
 │   │   ├── TC02_InvalidLoginTest.java
