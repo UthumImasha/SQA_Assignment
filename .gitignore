@@ -1,0 +1,22 @@
+# Compiled output
+target/
+*.class
+
+# Test reports and artifacts
+test-output/
+/screenshots/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
