@@ -63,7 +63,9 @@ public class ProductsPage {
         wait.scrollAndClick(addToCartButton);
     }
 
-    // The "Added!" confirmation modal is loaded with AJAX after the add click
+    // The "Added!" modal is rendered by an AJAX response after the add click.
+    // The link exists in the DOM from page load but stays hidden until then,
+    // so an explicit wait for clickability is required (see docs/05_debugging_challenge.md)
     public void goToCartFromModal() {
         wait.scrollAndClick(viewCartModalLink);
     }

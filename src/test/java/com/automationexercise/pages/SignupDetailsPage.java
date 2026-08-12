@@ -37,13 +37,14 @@ public class SignupDetailsPage {
     // Fills the account information and address form with fixed test data,
     // only the password varies per run
     public void completeRegistration(String password) {
-        wait.waitForVisible(titleMr).click();
+        // scrollAndClick keeps these clicks safe from ad banners overlaying the form
+        wait.scrollAndClick(titleMr);
         driver.findElement(passwordField).sendKeys(password);
         new Select(driver.findElement(daySelect)).selectByValue("15");
         new Select(driver.findElement(monthSelect)).selectByVisibleText("June");
         new Select(driver.findElement(yearSelect)).selectByValue("1998");
-        driver.findElement(newsletterCheckbox).click();
-        driver.findElement(offersCheckbox).click();
+        wait.scrollAndClick(newsletterCheckbox);
+        wait.scrollAndClick(offersCheckbox);
         driver.findElement(firstName).sendKeys("Test");
         driver.findElement(lastName).sendKeys("User");
         driver.findElement(company).sendKeys("UCSC");

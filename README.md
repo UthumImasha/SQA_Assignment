@@ -17,7 +17,7 @@ Automated UI testing project for [automationexercise.com](https://automationexer
 - [x] Manual test scenario design
 - [x] Automation candidate selection
 - [x] Framework design
-- [ ] Automated test scenarios (5)
-- [ ] Debugging challenge
+- [x] Automated test scenarios (5)
+- [x] Debugging challenge
 
 Detailed documentation is added under `docs/` as the project progresses.
