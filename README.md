@@ -14,7 +14,7 @@ Automated UI testing project for [automationexercise.com](https://automationexer
 
 - [x] Project setup
 - [x] Requirement analysis
-- [ ] Manual test scenario design
+- [x] Manual test scenario design
 - [ ] Automation candidate selection
 - [ ] Framework design
 - [ ] Automated test scenarios (5)
